@@ -20,6 +20,8 @@ abstract class ITrufiMapController {
     required TickerProvider tickerProvider,
   });
 
+  void rotateNorth(double degree);
+
   void moveCurrentBounds({
     required TickerProvider tickerProvider,
   });

@@ -8,6 +8,7 @@ import 'package:trufi_core/base/blocs/providers/gps_location_provider.dart';
 import 'package:trufi_core/base/models/trufi_latlng.dart';
 import 'package:trufi_core/base/widgets/base_maps/leaflet_maps/leaflet_map_controller.dart';
 import 'package:trufi_core/base/widgets/base_maps/leaflet_maps/utils/leaflet_map_utils.dart';
+import 'package:trufi_core/base/widgets/base_maps/map_buttons/compass_button.dart';
 import 'package:trufi_core/base/widgets/base_maps/map_buttons/your_location_button.dart';
 
 typedef LayerOptionsBuilder = List<Widget> Function(BuildContext context);
@@ -50,7 +51,8 @@ class LeafletMap extends StatelessWidget {
                     InteractiveFlag.flingAnimation |
                     InteractiveFlag.pinchMove |
                     InteractiveFlag.pinchZoom |
-                    InteractiveFlag.doubleTapZoom,
+                    InteractiveFlag.doubleTapZoom |
+                    InteractiveFlag.rotate,
                 minZoom: mapConfiguratiom.onlineMinZoom,
                 maxZoom: mapConfiguratiom.onlineMaxZoom,
                 zoom: mapConfiguratiom.onlineZoom,
@@ -89,13 +91,19 @@ class LeafletMap extends StatelessWidget {
         ),
         Positioned(
           bottom: bottomPaddingButtons ?? 16.0,
+          top: 16.0,
           right: 16.0,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.end,
-            mainAxisAlignment: MainAxisAlignment.end,
             children: <Widget>[
+              CompassButton(
+                trufiMapController: trufiMapController,
+              ),
+              const SizedBox(height: 8),
+              const Spacer(),
+              const SizedBox(height: 8),
               if (floatingActionButtons != null) floatingActionButtons!,
-              const Padding(padding: EdgeInsets.all(4.0)),
+              const SizedBox(height: 8),
               YourLocationButton(
                 trufiMapController: trufiMapController,
               ),

@@ -47,6 +47,11 @@ class LeafletMapController extends Cubit<LeafletMapState>
   }
 
   @override
+  void rotateNorth(double degree) {
+    mapController.rotate(degree);
+  }
+
+  @override
   Future<void> moveToYourLocation({
     required BuildContext context,
     required TrufiLatLng location,
@@ -130,8 +135,7 @@ class LeafletMapController extends Cubit<LeafletMapState>
     emit(
       state.copyWith(
         unselectedMarkersLayer: MarkerLayer(markers: unselectedMarkers),
-        unselectedPolylinesLayer:
-            PolylineLayer(polylines: unselectedPolylines),
+        unselectedPolylinesLayer: PolylineLayer(polylines: unselectedPolylines),
         selectedMarkersLayer: MarkerLayer(markers: selectedMarkers),
         selectedPolylinesLayer: PolylineLayer(polylines: selectedPolylines),
       ),
