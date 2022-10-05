@@ -55,7 +55,7 @@ class CompassButtonState extends State<CompassButton>
   }
 
   void _handleOnPressed() {
-    widget.trufiMapController.rotateNorth(0);
+    widget.trufiMapController.rotate(0);
     setVisible(visible: false);
   }
 

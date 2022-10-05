@@ -47,7 +47,7 @@ class LeafletMapController extends Cubit<LeafletMapState>
   }
 
   @override
-  void rotateNorth(double degree) {
+  void rotate(double degree) {
     mapController.rotate(degree);
   }
 
