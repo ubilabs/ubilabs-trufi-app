@@ -1,0 +1,342 @@
+{
+    "alertLocationServicesDeniedMessage": "ስልክዎ (መሳሪያዎ) የጂ.ፒ.ኤስ. ማገናኛ እንዳለው እና መገናኘቱንም ያረጋግጡ",
+    "@alertLocationServicesDeniedMessage": {
+        "description": "Text of dialog that explains that access to location services was denied"
+    },
+    "alertLocationServicesDeniedTitle": "ቦታው አልተገኘም",
+    "@alertLocationServicesDeniedTitle": {
+        "description": "Title of dialog that explains that access to location services was denied"
+    },
+    "appReviewDialogButtonAccept": "ምክር ፃፍ",
+    "@appReviewDialogButtonAccept": {
+        "description": "Accept button of the App Review Dialog used on Android"
+    },
+    "appReviewDialogButtonDecline": "አሁን አይሆንም",
+    "@appReviewDialogButtonDecline": {
+        "description": "Decline button of the App Review Dialog used on Android"
+    },
+    "appReviewDialogContent": "በ Google Play መደብር ላይ አንድ ምክር ጋር ይደግፉን.",
+    "@appReviewDialogContent": {
+        "description": "Content of the App Review Dialog used on Android"
+    },
+    "appReviewDialogTitle": "መተግበሪያ እየወደዱት ነው?",
+    "@appReviewDialogTitle": {
+        "description": "Title of the App Review Dialog used on Android"
+    },
+    "chooseLocationPageSubtitle": "ካርታውን ከፒንኬሽን አንቀሳቅስ & ያጉሉ",
+    "@chooseLocationPageSubtitle": {
+        "description": "Page subtitle when choosing a location on the map"
+    },
+    "chooseLocationPageTitle": "አንድ ነጥብ ይምረጡ",
+    "@chooseLocationPageTitle": {
+        "description": "Page title when choosing a location on the map"
+    },
+    "commonCancel": "ሰርዝ",
+    "@commonCancel": {
+        "description": "Cancel button label"
+    },
+    "commonConfirmLocation": "መገኛዎን ያረጋግጡ",
+    "@commonConfirmLocation": {
+        "description": "General Confirm location label"
+    },
+    "commonDestination": "መዳረሻ",
+    "@commonDestination": {
+        "description": "Destination field label"
+    },
+    "commonEdit": "አርትዕ",
+    "@commonEdit": {
+        "description": "General Edit label"
+    },
+    "commonError": "ስህተት",
+    "@commonError": {
+        "description": "Message when an error has occured"
+    },
+    "commonFromStation": "ከጣቢያ",
+    "@commonFromStation": {
+        "description": "General from station  label"
+    },
+    "commonFromStop": "ከማቆሚያ",
+    "@commonFromStop": {
+        "description": "General from stop  label"
+    },
+    "commonItineraryNoTransitLegs": "ባሻዎ ጊዜ ያቁሙ",
+    "@commonItineraryNoTransitLegs": {
+        "description": "General Leave when it suits you label"
+    },
+    "commonLeavesAt": "ይሄዳል",
+    "@commonLeavesAt": {
+        "description": "General Leaves at  label"
+    },
+    "commonLoading": "በመጫን ላይ...",
+    "@commonLoading": {
+        "description": "General Loading label"
+    },
+    "commonNoInternet": "ኢንተርኔት የለም",
+    "@commonNoInternet": {
+        "description": "Message when internet connection is lost"
+    },
+    "commonNoResults": "ውጤት አልተገኘም",
+    "@commonNoResults": {
+        "description": "Message that is displayed when no results were found for the search term that was provided"
+    },
+    "commonOK": "እሺ",
+    "@commonOK": {
+        "description": "OK button label"
+    },
+    "commonOrigin": "መነሻ",
+    "@commonOrigin": {
+        "description": "Origin field label"
+    },
+    "commonRemove": "አስወግድ",
+    "@commonRemove": {
+        "description": "General Remove label"
+    },
+    "commonSave": "አስቀምጥ",
+    "@commonSave": {
+        "description": "General Save label"
+    },
+    "commonTomorrow": "ነገ",
+    "@commonTomorrow": {
+        "description": "General Tomorrow label"
+    },
+    "commonUnknownError": "ያልታወቀ ስህተት",
+    "@commonUnknownError": {
+        "description": "Message when an unknown error has occured"
+    },
+    "commonUnkownPlace": "ያልታወቀ ቦታ",
+    "@commonUnkownPlace": {
+        "description": "General Unkown place label"
+    },
+    "commonWait": "ጠብቅ",
+    "@commonWait": {
+        "description": "General wait label"
+    },
+    "commonWalk": "ተራመድ",
+    "@commonWalk": {
+        "description": "General Walk label"
+    },
+    "commonYourLocation": "የርስዎ መገኛ",
+    "@commonYourLocation": {
+        "description": "Search option that allows to use the current user location"
+    },
+    "errorAmbiguousDestination": "የጉዞ ዕቅድ ማውጫው የሚሄዱበትን እርግጠኛ ሊሆን አልቻለም። እባክዎ ከተዘረዘሩት ውስጥ አንዱን ይምረጡ ወይም ቦታውን በደንብ ይግለጡ።",
+    "@errorAmbiguousDestination": {
+        "description": "Message that is displayed when a trip could not be planned, because the specified destination is ambiguous"
+    },
+    "errorAmbiguousOrigin": "የጉዞ ዕቅድ ማውጫው መነሻዎን እርግጠኛ ሊሆን አልቻለም። እባክዎ ከተዘረዘሩት ውስጥ አንዱን ይምረጡ ወይም ቦታውን በደንብ ይግለጡ።",
+    "@errorAmbiguousOrigin": {
+        "description": "Message that is displayed when a trip could not be planned, because the specified origin is ambiguous"
+    },
+    "errorAmbiguousOriginDestination": "መነሻዎም መድረሻዎም አሻሚ ነው። እባክዎ ከተዘረዘሩት ውስጥ አንዱን ይምረጡ ወይም ቦታውን በደንብ ይግለጡ።",
+    "@errorAmbiguousOriginDestination": {
+        "description": "Message that is displayed when a trip could not be planned, because the specified origin and destination are ambiguous"
+    },
+    "errorNoBarrierFree": "መነሻዎም መድረሻዎም በአካል ጉዳተኛ ተሽከርካሪ ለመገልገል አመቺ አይደለም።",
+    "@errorNoBarrierFree": {
+        "description": "Message that is displayed when a trip could not be planned, because both origin and destination are not wheelchair accessible"
+    },
+    "errorNoConnectServer": "ከሰርቨሩ (አገልግሎት) መስጫው ጋር መገናኘት አልተቻለም",
+    "@errorNoConnectServer": {
+        "description": "Message when internet connection is lost"
+    },
+    "errorNoTransitTimes": "የጉዞ ሰዓታት ማግኘት አልተቻለም። ቀኑ ያለፈ ወይም በጣም ወደፊት ነው ወይም ደግሞ በመረጡት ሰዓት በመስመሩ ላይ የህዝብ መጓጓዣ አይገኝም።",
+    "@errorNoTransitTimes": {
+        "description": "Message that is displayed when a trip could not be planned, because there were no valid transit times available for the requested time"
+    },
+    "errorOutOfBoundary": "ይህ ጉዞ የተሳሳተ ነው። ከተዘጋጄው የካርታ ክልል ውጭ ያለ ጉዞ ነው",
+    "@errorOutOfBoundary": {
+        "description": "Message that is displayed when a trip could not be planned, because it would be outside of map data boundaries"
+    },
+    "errorPathNotFound": "ጉዞው የሚቻል አይደለም። መነሻዎ ወይም መድረሻዎ በደህና መገልገል የሚያስችል አይደለም ይሆናል (ለምሳሌ፦ ጉዞዎ ከመኖሪያ አካባቢ መንገድ ተነስቶ በቀጥታ ከዋና መንገድ ጋር ብቻ የተገናኘ ይሆናል)",
+    "@errorPathNotFound": {
+        "description": "Message that is displayed when a trip could not be planned, because the start or end point is not safely accessible"
+    },
+    "errorServerCanNotHandleRequest": "ጥያቄዎ ይህ ሰርቨር (ማሽን) ሊፈታው ያልፈቀደው ወይም ያልቻለው ስህተት ይኖረው ይሆናል።",
+    "@errorServerCanNotHandleRequest": {
+        "description": "Message that is displayed when a trip could not be planned, because the request had errors"
+    },
+    "errorServerTimeout": "የጉዞ ዕቅድ ማውጫው ጥያቄዎን ለመመለስ ረጅም ጊዜ እየወሰደ ነው። እባክዎ ጥቂት ቆይተው ይሞክሩ",
+    "@errorServerTimeout": {
+        "description": "Message that is displayed when a trip could not be planned, because the server is taking too long to respond"
+    },
+    "errorServerUnavailable": "ይቅርታ. የጉዞ ዕቅድ መተግበሪያው ለጊዜው አገልግሎት አይሰጥም. እባክዎ ጥቂት ቆይተው ይሞክሩ",
+    "@errorServerUnavailable": {
+        "description": "Message that is displayed when the trip planning server was not available"
+    },
+    "errorTrivialDistance": "መነሻዎ ለመድረሻዎ በጣም ቅርብ እና ትራንስፖርት የማያስፈልገው ነው።",
+    "@errorTrivialDistance": {
+        "description": "Message that is displayed when a trip could not be planned, because origin and destination are too close to each other"
+    },
+    "errorUnknownDestination": "መዳረሻዎ አልታወቀም። እባክዎ በይበልጥ ግልፅ ሊያደርጉት ይችላሉ?",
+    "@errorUnknownDestination": {
+        "description": "Message that is displayed when a trip could not be planned, because the destination was not found"
+    },
+    "errorUnknownOrigin": "መነሻዎ አልታወቀም። እባክዎ በይበልጥ ግልፅ ሊያደርጉት ይችላሉ?",
+    "@errorUnknownOrigin": {
+        "description": "Message that is displayed when a trip could not be planned, because the origin was not found"
+    },
+    "errorUnknownOriginDestination": "ሁለቱም መነሻዎም መዳረሻዎ አልታወቀም። እባክዎ በይበልጥ ግልፅ ሊያደርጉት ይችላሉ?",
+    "@errorUnknownOriginDestination": {
+        "description": "Message that is displayed when a trip could not be planned, because both origin and destination were not found"
+    },
+    "followOnFacebook": "ፌስቡክ ላይ ይከተሉን",
+    "@followOnFacebook": {
+        "description": "Facebook menu item"
+    },
+    "followOnInstagram": "በ ኢንስተግራም ላይ ይከተሉን",
+    "@followOnInstagram": {
+        "description": "Instagram menu item"
+    },
+    "followOnTwitter": "በትዊተር ላይ ይከተሉን",
+    "@followOnTwitter": {
+        "description": "Twitter menu item"
+    },
+    "instructionDistanceKm": "{value} ኪ.ሜ.",
+    "@instructionDistanceKm": {
+        "placeholders": {
+            "value": {
+                "example": "10"
+            }
+        },
+        "description": "Itinerary leg distance (km)"
+    },
+    "instructionDistanceMeters": "{value} ሜ",
+    "@instructionDistanceMeters": {
+        "placeholders": {
+            "value": {
+                "example": "100"
+            }
+        },
+        "description": "Itinerary leg distance (m)"
+    },
+    "instructionDurationHours": "{value} h",
+    "@instructionDurationHours": {
+        "placeholders": {
+            "value": {
+                "example": "10"
+            }
+        },
+        "description": "Itinerary leg duration in hours"
+    },
+    "instructionDurationMinutes": "{value} ደቂቃ",
+    "@instructionDurationMinutes": {
+        "placeholders": {
+            "value": {
+                "example": "10"
+            }
+        },
+        "description": "Itinerary leg duration"
+    },
+    "instructionVehicleBike": "ሳይክል",
+    "@instructionVehicleBike": {
+        "description": "Vehicle name (Bike)"
+    },
+    "instructionVehicleBus": "አውቶቡስ",
+    "@instructionVehicleBus": {
+        "description": "Vehicle name (Bus)"
+    },
+    "instructionVehicleCar": "መኪና",
+    "@instructionVehicleCar": {
+        "description": "Vehicle name (Car)"
+    },
+    "instructionVehicleCarpool": "የጋራ መኪናዎች ",
+    "@instructionVehicleCarpool": {
+        "description": "Vehicle name (Carpool)"
+    },
+    "instructionVehicleCommuterTrain": "የመንገደኞች ባቡር",
+    "@instructionVehicleCommuterTrain": {
+        "description": "Vehicle name (Commuter train)"
+    },
+    "instructionVehicleGondola": "ጎንዶላ",
+    "@instructionVehicleGondola": {
+        "description": "Vehicle name (Gondola)"
+    },
+    "instructionVehicleLightRail": "ቀላል ባቡር",
+    "@instructionVehicleLightRail": {
+        "description": "Vehicle name (Light Rail Train)"
+    },
+    "instructionVehicleMetro": "ሜትሮ",
+    "@instructionVehicleMetro": {
+        "description": "Vehicle name (Metro)"
+    },
+    "instructionVehicleMicro": "ማይክሮ ባስ",
+    "@instructionVehicleMicro": {
+        "description": "Vehicle name (Microbus)"
+    },
+    "instructionVehicleMinibus": "ሚኒባስ",
+    "@instructionVehicleMinibus": {
+        "description": "Vehicle name (Minibus)"
+    },
+    "instructionVehicleTrufi": "ትሩፊ",
+    "@instructionVehicleTrufi": {
+        "description": "Vehicle name (Trufi)"
+    },
+    "instructionVehicleWalk": "ይሂዱ",
+    "menuConnections": "የጉዞ ዕቅድ ማውጫ",
+    "@menuConnections": {
+        "description": "Menu item that shows the map/planned trip"
+    },
+    "menuSocialMedia": "ማህበራዊ ሚዲያ",
+    "menuTransportList": "መስመሮቹን አሳይ",
+    "@menuTransportList": {
+        "description": "Menu item that shows the bus list page"
+    },
+    "noRouteError": "ይቅርታ መስመሩ አልተገኘም። ምን ማድረግ ያሻሉ?",
+    "@noRouteError": {
+        "description": "Message when no route could be found after a route search"
+    },
+    "noRouteErrorActionCancel": "ሌላ መዳረሻ ይምረጡ",
+    "@noRouteErrorActionCancel": {
+        "description": "Button label to try another destination when no route could be found"
+    },
+    "noRouteErrorActionReportMissingRoute": "ያልተገኙ መስመሮችን ያሳውቁ",
+    "@noRouteErrorActionReportMissingRoute": {
+        "description": "Button label to report a missing route when no route could be found"
+    },
+    "noRouteErrorActionShowCarRoute": "የመኪና መስመሩን አሳይ",
+    "@noRouteErrorActionShowCarRoute": {
+        "description": "Button label to show the car route when no route could be found"
+    },
+    "readOurBlog": "ፅሁፎቻችንን ያንብቡ",
+    "@readOurBlog": {
+        "description": "Website menu item"
+    },
+    "searchFailLoadingPlan": "ዕቅድ መጫን አልተሳካም።",
+    "@searchFailLoadingPlan": {
+        "description": "Message that is displayed when the response of the trip planning request could not be received"
+    },
+    "searchHintDestination": "መድረሻ ይምረጡ",
+    "@searchHintDestination": {
+        "description": "Placeholder text for the destination field (in search state)"
+    },
+    "searchHintOrigin": "መነሻ ነጥብ ይምረጡ",
+    "@searchHintOrigin": {
+        "description": "Placeholder text for the origin field (in search state)"
+    },
+    "searchPleaseSelectDestination": "መዳረሻዎን ይምረጡ",
+    "@searchPleaseSelectDestination": {
+        "description": "Placeholder text for the destination field (in map-visible state)"
+    },
+    "searchPleaseSelectOrigin": "መነሻዎን ይምረጡ",
+    "@searchPleaseSelectOrigin": {
+        "description": "Placeholder text for the origin field (in map-visible state)"
+    },
+    "shareAppText": "{appTitle} የተባለውን የ{cityName} ከተማ የብዙሀን መገናኛ ትራንስፖርት አፕሊኬሽን ከ{url} ያውርዱ",
+    "@shareAppText": {
+        "placeholders": {
+            "url": {
+                "example": "https://trufi.share.url"
+            },
+            "appTitle": {
+                "example": "Trufi App"
+            },
+            "cityName": {
+                "example": "Karlsruhe"
+            }
+        },
+        "description": "Text with URL that is used when sharing the app."
+    },
+    "themeModeDark": "Dark Theme",
+    "themeModeLight": "Light theme",
+    "themeModeSystem": "System Default"
+}

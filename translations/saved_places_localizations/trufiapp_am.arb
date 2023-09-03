@@ -1,0 +1,72 @@
+{
+    "chooseNowLabel": "አሁን ይምረጡ",
+    "chooseOnMap": "ካርታው ላይ ይምረጡ",
+    "@chooseOnMap": {
+        "description": "Search option that allows to choose a point on the map"
+    },
+    "commonCustomPlaces": "የተለዩ ቦታዎች",
+    "@commonCustomPlaces": {
+        "description": "General CustomPlaces label"
+    },
+    "commonFavoritePlaces": "ተመራጭ ቦታዎቾ",
+    "@commonFavoritePlaces": {
+        "description": "General Favorite places label"
+    },
+    "defaultLocationAdd": "{defaultLocation} አድራሻዎን ያስቀምጡ",
+    "@defaultLocationAdd": {
+        "placeholders": {
+            "defaultLocation": {
+                "example": "1.0"
+            }
+        },
+        "description": "The name Add for {defaultLocation}"
+    },
+    "defaultLocationHome": "ቤት",
+    "@defaultLocationHome": {
+        "description": "The default location name Home"
+    },
+    "defaultLocationWork": "ስራ ቦታ",
+    "@defaultLocationWork": {
+        "description": "The default location name Work"
+    },
+    "iconlabel": "መለያ",
+    "instructionJunction": "{street1} እና {street2}",
+    "@instructionJunction": {
+        "type": "text",
+        "placeholders": {
+            "street1": {
+                "example": "Av. Blanco Galindo"
+            },
+            "street2": {
+                "example": "Av. 16 de Julio"
+            }
+        },
+        "description": "Junction name of two streets"
+    },
+    "menuYourPlaces": "ቦታዎችዎ",
+    "@menuYourPlaces": {
+        "description": "A menu item that shows the saved places"
+    },
+    "nameLabel": "ስም",
+    "savedPlacesEditLabel": "ቦታውን አርትዕ",
+    "savedPlacesEnterNameTitle": "ስም አስገባ",
+    "savedPlacesEnterNameValidation": "ስም ባዶ መሆን አይችልም",
+    "savedPlacesRemoveLabel": "ቦታውን አስወግድ",
+    "savedPlacesSelectIconTitle": "ምስሉን ምረጥ",
+    "savedPlacesSetIconLabel": "ምስሉን ለውጥ",
+    "savedPlacesSetNameLabel": "ስም አርትዕ",
+    "savedPlacesSetPositionLabel": "ቦታውን አርትዕ",
+    "searchTitleFavorites": "ተመራጮች",
+    "@searchTitleFavorites": {
+        "description": "Search section title for locations marked as favorites"
+    },
+    "searchTitleRecent": "የቅርብ ጊዜ",
+    "@searchTitleRecent": {
+        "description": "Search section title for recent location"
+    },
+    "searchTitleResults": "የፍለጋ ውጤቶች",
+    "@searchTitleResults": {
+        "description": "Search section title for results found for the provided search term"
+    },
+    "selectedOnMap": "ካርታው ላይ የተመረጠ"
+}
